@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodízio de Placas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <form>
+        <label>Final da Placa</label>
+        <input type="number" placeholder="Final Placa" id="finalPLaca">
+
+        <!--Dia da Semana-->
+        <label>Dia da Semana</label>
+        <select id="diaSemana">
+            <option>Segunda-Feira</option>
+            <option>Terça-Feira</option>
+            <option>Quarta-Feira</option>
+            <option>Quinta-Feira</option>
+            <option>Sexta-Feira</option>
+            <option>Sábado</option>
+            <option>Domingo</option>
+        </select>
+
+        <!--tipoAutomovel-->
+        <label>Tipo do Automóvel</label>
+        <select id="tipoAutomovel">
+            <option>Carro</option>
+            <option>Caminhão</option>
+        </select>
+
+        <!--Local-->
+        <label>Tipo da Via</label>
+        <select id="tipoVia">
+            <option>Área Vermelha</option>
+            <option>Limite Área Vermelha</option>
+        </select>
+
+        <!--Horário-->
+        <label>Horário Atual</label>
+        <select id="horarioAtual">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+        </select>
+        <button onclick="verificarRodizio(); return false">Verificar Rodízio</button>
+
+        <!--Resultado Verificação-->
+        <h3></h3>
+    </form>
+</body>
+</html>
